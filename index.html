@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="fireTracksApp">
+  <head>
+    <title>FireTracks</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/firetracks.css">
+    <script src='/bower_components/angular/angular.min.js'></script>
+    <script src='/bower_components/lodash/dist/lodash.min.js'></script>
+    <script src='/bower_components/angular-google-maps/dist/angular-google-maps.min.js'></script>
+    <script src='/js/firetracks.js'></script>
+  </head>
+  <body ng-controller="mapController">
+    <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
+  </body>
+</html>
